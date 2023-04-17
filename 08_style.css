@@ -1,0 +1,50 @@
+body {
+    background-color: blue;
+}
+
+.maincontainer {
+    margin: auto;
+    width: 1000px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.producto {
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+
+    .maincontainer {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .producto {
+        width: 100%;
+    }
+    
+    p {
+        color: #000;
+    }
+}
